@@ -1,11 +1,11 @@
 //your JS code here. If required.
-let widths = document.getElementById('widths')
-let heights = document.getElementById('heights')
+let wid = document.getElementById('widths')
+let heig = document.getElementById('heights')
 
 let width = window.innerWidth;
 let height = window.innerHeight;
 
-widths.innerText += width
+wid.innerText += width;
 console.log("Initial window height:", height
 
 window.addEventListener("resize", () => {
