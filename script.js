@@ -5,8 +5,11 @@ let heig = document.getElementById('heights')
 let width = window.innerWidth;
 let height = window.innerHeight;
 
-wid.innerText += width;
-heig.innerText += height
+console.log("Initial window width:", width);
+console.log("Initial window height:", height);
+
+wid.innerText = width;
+heig.innerText = height
 
 window.addEventListener("resize", () => {
   width = window.innerWidth;
@@ -14,4 +17,7 @@ window.addEventListener("resize", () => {
 
 wid.innerText = width;
 heig.innerText = height
+
+	 console.log("New window width:", width);
+  console.log("New window height:", height);
 });
