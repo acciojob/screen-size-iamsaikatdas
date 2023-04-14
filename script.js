@@ -17,7 +17,4 @@ window.addEventListener("resize", () => {
 
 wid.innerText = width;
 heig.innerText = height
-
-	 console.log("New window width:", width);
-  console.log("New window height:", height);
 });
